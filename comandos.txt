@@ -1,0 +1,63 @@
+https://www.figma.com/design/ByDjVh7THsTnsSVRKNN8yy/FSW-5.0-%5BLive%5D?node-id=0-1&t=oySAxjBheM76pgFP-0
+
+Next.js
+npx create-next-app@latest fsw-barber
+
+postgressql com prisma
+npm install prisma --save-dev
+npx prisma init --datasource-provider postgresql
+npx prisma format
+npx prisma migrate dev --name init_db
+npm install -D ts-node
+npx prisma db seed
+
+npm install -D prettier prettier-plugin-tailwindcss
+
+npx shadcn-ui@latest init
+npx shadcn-ui@latest add button
+
+npm install -D husky lint-staged
+npx husky init
+npm install -D git-commit-msg-linter
+
+npx shadcn-ui@latest add card
+npx shadcn-ui@latest add input
+npx shadcn-ui@latest add badge
+npx shadcn-ui@latest add avatar
+npx shadcn-ui@latest add sheet
+npx shadcn-ui@latest add sonner
+npx shadcn-ui@latest add dialog
+npx shadcn-ui@latest add form
+npx shadcn-ui@latest add calendar
+
+atalho sfc para criar new.tsx
+feat: add barbershops and phoneitem and footer and sidebar
+
+npx prisma studio
+se precisar
+npx prisma db seed
+
+avaliação
+outra tabela
+raint
+usuario vai avaliar uma tal barbearia
+
+npm install next-auth
+npm install @auth/prisma-adapter
+npx prisma format
+
+npx prisma migrate dev --name add_auth_tables
+npx prisma studio
+
+para login com user e senha
+next auth credentials
+
+npm i @hookform/resolvers
+
+
+feat: ensure booking can be created
+
+
+
+npx prisma studio
+npm run dev
